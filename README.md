@@ -1,4 +1,4 @@
-# countdown-distillation-gemma
+# Countdown-Distillation-Gemma
 
 Teacher-student distillation pipeline for the `Countdown` task built around `google/gemma-3-1b-it`, verified teacher generations, rejection sampling, SFT warm-start, exploratory GOLD refinement, and strict validated inference.
 
