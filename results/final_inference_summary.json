@@ -1,0 +1,12 @@
+{
+  "total_examples": 2000,
+  "prompts_with_valid_candidate": 468,
+  "fraction_with_at_least_one_valid_candidate": 0.234,
+  "avg_valid_candidates_per_prompt": 1.126,
+  "syntax_valid_rate": 1.0,
+  "numbers_valid_rate": 0.9949864498644987,
+  "exact_target_hit_rate": 0.234,
+  "pass_at_1": 0.129,
+  "pass_at_k": 0.234,
+  "fallback_rate": 0.7675
+}

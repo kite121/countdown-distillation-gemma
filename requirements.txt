@@ -1,0 +1,12 @@
+datasets
+numpy
+pandas
+pyarrow
+peft
+pytest
+scikit-learn
+sympy
+torch
+transformers
+trl
+unsloth

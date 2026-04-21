@@ -1,0 +1,12 @@
+{
+  "student_model": "google/gemma-3-1b-it",
+  "teacher_model": "Qwen/Qwen2.5-7B-Instruct",
+  "loss_mode": "hybrid",
+  "gold_rounds": 4,
+  "examples_per_round": 1024,
+  "rollout_ratio_start": 0.3,
+  "rollout_ratio_end": 0.55,
+  "rollout_candidates_per_prompt": 4,
+  "rollout_temperature": 0.45,
+  "validation_metric": "exact_target_hit_rate"
+}

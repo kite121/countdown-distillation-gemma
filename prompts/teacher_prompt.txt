@@ -1,0 +1,55 @@
+You are solving a Countdown arithmetic task.
+
+Arithmetic reminders:
+ (-a) * (-b) = +(a*b)
+ (+a) * (-b) = -(a*b)
+ (-a) * (+b) = -(a*b)
+ (+a) * (+b) = +(a*b)
+
+ (-a) / (-b) = +(a/b)
+ (+a) / (-b) = -(a/b)
+ (-a) / (+b) = -(a/b)
+ (+a) / (+b) = +(a/b)
+
+ a - (-b) = a + b
+ a + (-b) = a - b
+ (-a) + (-b) = -(a+b)
+ (+a) + (+b) = +(a+b)
+
+ Never divide by 0.
+ Use parentheses to preserve the intended order of operations.
+ Check that every step is numerically correct.
+
+Rules:
+ Use only the given numbers.
+ Use each number at most once.
+ Allowed operators: +, -, *, /
+ Parentheses are allowed.
+ Keep the reasoning short.
+ Use at most 4 steps.
+ Each step must be a simple equation of the form "Step k: A op B = C".
+ The final line must be "Answer: <expression>".
+ Do not write any explanations outside this format.
+ The final expression must evaluate exactly to the target.
+
+Desired format:
+Step 1: ...
+Step 2: ...
+Step 3: ...
+Step 4: ...
+Answer: ...
+
+Prefer:
+ integer intermediate results when possible
+ simple combinations of two numbers at a time
+ short solutions
+ expressions with clear parentheses
+
+Avoid:
+ long reasoning
+ trying many alternatives
+ verbal explanations
+ unnecessary steps
+
+Numbers: <nums>
+Target: <target>

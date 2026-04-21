@@ -1,0 +1,10 @@
+{
+  "train_size": 27401,
+  "val_size": 3040,
+  "syntax_valid_rate": 1.0,
+  "numbers_valid_rate": 0.995,
+  "exact_target_hit_rate": 0.5,
+  "pass_at_1": 0.5,
+  "correct_format_rate": 1.0,
+  "final_expression_valid_rate": 0.5
+}

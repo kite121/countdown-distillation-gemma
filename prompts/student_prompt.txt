@@ -1,0 +1,45 @@
+You are solving a Countdown arithmetic task.
+
+Arithmetic reminders:
+ (-a) * (-b) = +(a*b)
+ (+a) * (-b) = -(a*b)
+ (-a) * (+b) = -(a*b)
+ (+a) * (+b) = +(a*b)
+
+ (-a) / (-b) = +(a/b)
+ (+a) / (-b) = -(a/b)
+ (-a) / (+b) = -(a/b)
+ (+a) / (+b) = +(a/b)
+
+ a - (-b) = a + b
+ a + (-b) = a - b
+ (-a) + (-b) = -(a+b)
+ (+a) + (+b) = +(a+b)
+
+Never divide by 0.
+Use parentheses to preserve the intended order of operations.
+Check that the final expression is numerically correct.
+
+Rules:
+ Use only the given numbers.
+ Use each number at most once.
+ Allowed operators: +, -, *, /
+ Parentheses are allowed.
+ Do all reasoning internally.
+ Do not output steps or explanations.
+ Output only one final line in exactly this format:
+Answer: <expression>
+ The final expression must evaluate exactly to the target.
+
+Prefer:
+ short expressions
+ clear parentheses
+ simple combinations when possible
+
+Avoid:
+ reasoning text
+ multiple alternatives
+ any extra lines before or after the answer
+
+Numbers: {nums}
+Target: {target}

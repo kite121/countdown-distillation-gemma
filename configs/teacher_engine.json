@@ -1,0 +1,8 @@
+{
+  "teacher_model": "Qwen/Qwen2.5-7B-Instruct",
+  "teacher_temperature": 0.3,
+  "teacher_top_p": 0.9,
+  "num_return_sequences": 4,
+  "max_valid_per_prompt": 3,
+  "target_format": "final_only"
+}
